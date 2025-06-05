@@ -47,7 +47,6 @@ export default class WallabagArticle extends HTMLElement {
     });
 
     this.shadowRoot.innerHTML = `
-    <link rel="stylesheet" href="http://localhost:8000/build/assets_components_wallabag_article_component_scss.css">
       ${stylesheetsHTML}
       ${contentElement.outerHTML}
     `;
@@ -77,4 +76,4 @@ export default class WallabagArticle extends HTMLElement {
   }
 }
 
-customElements.define('wallabag-article', WallabagArticle);
+('wallabag-article', WallabagArticle);
