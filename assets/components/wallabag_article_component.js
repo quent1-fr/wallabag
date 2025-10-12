@@ -76,4 +76,4 @@ export default class WallabagArticle extends HTMLElement {
   }
 }
 
-('wallabag-article', WallabagArticle);
+customElements.define('wallabag-article', WallabagArticle);
